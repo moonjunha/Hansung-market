@@ -22,14 +22,7 @@ bin/
 *.iws
 *.iml
 *.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-application.properties
-application-local.properties
-application-gcp.properties
-application-naverCloud.properties
-keystore.p12
+
 
 ### NetBeans ###
 /nbproject/private/
@@ -39,4 +32,4 @@ keystore.p12
 /.nb-gradle/
 
 ### VS Code ###
-.vscode/
+

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<meta charset="UTF-8">
+<head>
+    <title>한성마켓 아이디 찾기</title>
+</head>
+<body>
+<span>해당 메일로 가입한 한성마켓 아이디</span><br><br>
+<th:block th:each="username : ${usernameList}">
+    <div th:text = "${username}"></div>
+</th:block>
+</body>
+</html>
